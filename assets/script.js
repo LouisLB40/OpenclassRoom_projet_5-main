@@ -60,6 +60,7 @@ function slideSuivant() {
 	index = 0;
 	}
 	afficherSlideCourant();
+	console.log("Slide suivante. Index actuel :", index);
   }
 
   function slidePrecedent() {
@@ -68,6 +69,7 @@ function slideSuivant() {
 	  index = nombreSlide - 1;
 	}
 	afficherSlideCourant();
+	console.log("Slide précédente. Index actuel :", index);
   }
 
 let arrow_right = document.querySelector(".arrow_right");
